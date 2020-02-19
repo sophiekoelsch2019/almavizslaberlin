@@ -1,0 +1,57 @@
+.margin {
+    margin: 20px;
+
+}
+
+.head {
+    justify-content: space-between;
+    background: rgb(0, 0, 0);
+    color: rgb(216, 86, 0);
+    display: flex;
+    
+}
+
+/* MENÜ*/
+
+.menu {
+    list-style-type: none;
+    border: 0,5% auto;
+    margin: 0,5% auto;
+    padding: 0,5% auto;
+    font-size: 30px;
+}
+
+@media (orientation: portrait)
+    ul {flex-direction: column;
+    }
+
+@media (orientation: landscape)
+    ul {flex-direction: row;
+    }
+
+h2 {
+    background: rgb(0, 0, 0);
+    color: rgb(216, 86, 0);
+    text-align: center;
+}
+
+.uberschrift {
+    color: rgb(216, 86, 0);
+    text-align: center;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.boxtextbild {
+ 
+    border: 3% solid rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    text-align: justify;
+    display: flex;
+}
+.introtext {
+    font-size: 30px;
+   
+}
